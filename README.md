@@ -57,13 +57,14 @@ python CT_SB_edgeR_tidier.py \
 
 Note the joined file `CT_analysis/EdgeR_out/TTT_CT2_sig_CTSB_tidied.csv` is provided for convenience along with a description file `CT_analysis/EdgeR_out/README_TTT_CT2_sig_CTSB_tidied.txt`
 
-Plot data
+Plot gene expression data
 
 * `CT2_plots_and_hists.R`
 * `CT2_plots_heatmap.R`
 
 ## Functional processes
 
+Plot gene expression of functional clusters
 * CT2_plots_heatmap_GOs.R
 
 
