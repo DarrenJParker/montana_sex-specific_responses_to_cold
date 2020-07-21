@@ -15,6 +15,9 @@ This is the repository for the collected scripts used in the study:
     * data/Gene_expression/gff/D.mont_freeze_v1.4.gff.txt # D. montana annotation info
     * data/Gene_expression/SAGD_SBgenes/SAGD_00026.csv # D. virilis sex-bias info from Shi M-W, Zhang N-A, Shi C-P, Liu C-J, Luo Z-H, Wang D-Y, et al. (2019). SAGD: a comprehensive sex-associated gene database from transcriptomes. Nucleic Acids Res 47: D835–D840.
 
+* Gene expression output files provided for convenience
+    * CT_analysis/EdgeR_out/
+
 ## Phenotype analyses
 
 Analyse CT min data.
