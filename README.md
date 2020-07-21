@@ -42,7 +42,7 @@ python CT_SB_edgeR_tidier.py \
 
 ```
 
-Note the joined file CT_analysis/EdgeR_out/TTT_CT2_sig_CTSB_tidied.csv is provided for convenience along with a description file CT_analysis/EdgeR_out/README_TTT_CT2_sig_CTSB_tidied.txt
+Note the joined file `CT_analysis/EdgeR_out/TTT_CT2_sig_CTSB_tidied.csv` is provided for convenience along with a description file `CT_analysis/EdgeR_out/README_TTT_CT2_sig_CTSB_tidied.txt`
 
 Plot data
 
