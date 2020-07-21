@@ -13,11 +13,20 @@ This is the repository for the collected scripts used in the study:
 * Gene_expression data: 
     * `data/Gene_expression/readcounts/CT_H2E.counts.csv` - readcounts
     * `data/Gene_expression/gff/D.mont_freeze_v1.4.gff.txt` - D. montana annotation info
-    * `data/Gene_expression/SAGD_SBgenes/SAGD_00026.csv` - D. virilis sex-bias info from Shi M-W, Zhang N-A, Shi C-P, Liu C-J, Luo Z-H, Wang D-Y, et al. (2019). SAGD: a comprehensive sex-associated gene database from transcriptomes. Nucleic Acids Res 47: D835–D840.
+    * `data/Gene_expression/SAGD_SBgenes/SAGD_00026.csv` - D. virilis sex-bias info from `Shi M-W, Zhang N-A, Shi C-P, Liu C-J, Luo Z-H, Wang D-Y, et al. (2019). SAGD: a comprehensive sex-associated gene database from transcriptomes. Nucleic Acids Res 47: D835–D840`
 
 * Gene expression output files provided for convenience
     * `CT_analysis/EdgeR_out/logCPM_all.csv` - log counts per million for all genes
     * `CT_analysis/EdgeR_out/TTT_CT2_sig_CTSB_tidied.csv` - EdgeR output: expression differences between sexes and temperatures 
+
+* Functional processes
+     * `data/Functional_processes/TTT_CT2_sig_CTSB_tidied_with_DAVID.csv` - Gene expression output file, with D. melanogaster orthologs from [FlyMine](https://www.flymine.org/flymine/begin.do), and output from [DAVID](https://david.ncifcrf.gov/) attached.
+     * `data/DAVID_genelists` contains D. melanogaster gene IDs used for DAVID analyses:
+         * `both_dmel_genelist_DU.txt` - genes DE in response to cold in both males and females 
+         * `CT_female_only_dmel_genelist_DU.txt` - genes DE in response to cold in females only
+         * `CT_male_only_dmel_genelist_DU.t` - genes DE in response to cold in males only
+         * `interaction_dmel_genelist_DU.txt` - Genes showing a significant sex by cold treatment interaction
+         * `background_dmel_genelist_DU.txt` - All expressed genes. Used as the 'background list' in DAVID        
 
 ## Phenotype analyses
 
@@ -52,5 +61,11 @@ Plot data
 
 * `CT2_plots_and_hists.R`
 * `CT2_plots_heatmap.R`
+
+## Functional processes
+
+* CT2_plots_heatmap_GOs.R
+
+
 
 
