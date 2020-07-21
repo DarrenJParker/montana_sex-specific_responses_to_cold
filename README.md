@@ -68,5 +68,12 @@ Plot gene expression of functional clusters
 * CT2_plots_heatmap_GOs.R
 
 
+# Infomation on running scripts
+
+## General 
+
+* All scripts should be run from the directory they are in. Output will be stored as the code is run. 
+* All python scripts were made using python 3.5. All contain help information which can be displayed by specifying -h as a command line argument.
+
 
 
