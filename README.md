@@ -7,31 +7,31 @@ This is the repository for the collected scripts used in the study:
 ## Data
 
 * Phenotype (CTmin) data: 
-    * data/phenotype/Ctmin_data.csv
-    * data/phenotype/README_Ctmin_data.txt
+    * `data/phenotype/Ctmin_data.csv`
+    * `data/phenotype/README_Ctmin_data.txt`
 
 * Gene_expression data: 
-    * data/Gene_expression/readcounts/CT_H2E.counts.csv # readcounts
-    * data/Gene_expression/gff/D.mont_freeze_v1.4.gff.txt # D. montana annotation info
-    * data/Gene_expression/SAGD_SBgenes/SAGD_00026.csv # D. virilis sex-bias info from Shi M-W, Zhang N-A, Shi C-P, Liu C-J, Luo Z-H, Wang D-Y, et al. (2019). SAGD: a comprehensive sex-associated gene database from transcriptomes. Nucleic Acids Res 47: D835–D840.
+    * `data/Gene_expression/readcounts/CT_H2E.counts.csv` - readcounts
+    * `data/Gene_expression/gff/D.mont_freeze_v1.4.gff.txt` - D. montana annotation info
+    * `data/Gene_expression/SAGD_SBgenes/SAGD_00026.csv` - D. virilis sex-bias info from Shi M-W, Zhang N-A, Shi C-P, Liu C-J, Luo Z-H, Wang D-Y, et al. (2019). SAGD: a comprehensive sex-associated gene database from transcriptomes. Nucleic Acids Res 47: D835–D840.
 
 * Gene expression output files provided for convenience
-    * CT_analysis/EdgeR_out/logCPM_all.csv # log counts per million for all genes
-    * CT_analysis/EdgeR_out/TTT_CT2_sig_CTSB_tidied.csv # EdgeR output: expression differences between sexes and temperatures 
+    * `CT_analysis/EdgeR_out/logCPM_all.csv` - log counts per million for all genes
+    * `CT_analysis/EdgeR_out/TTT_CT2_sig_CTSB_tidied.csv` - EdgeR output: expression differences between sexes and temperatures 
 
 ## Phenotype analyses
 
 Analyse CT min data.
 
-* CTmin.R
+* `CTmin.R`
 
 ## Gene expression analyses
 
 Take read counts and identifies gene expression changes.
 
-* CT_edgeR.R 
+* `CT_edgeR.R` 
 
-The output of CT_edgeR.R then needs to be brought together with CT_SB_edgeR_tidier.py as follows: 
+The output of `CT_edgeR.R` then needs to be brought together with `CT_SB_edgeR_tidier.py` as follows: 
 
 ```
 python CT_SB_edgeR_tidier.py \
@@ -50,7 +50,7 @@ Note the joined file `CT_analysis/EdgeR_out/TTT_CT2_sig_CTSB_tidied.csv` is prov
 
 Plot data
 
-* CT2_plots_and_hists.R
-* CT2_plots_heatmap.R
+* `CT2_plots_and_hists.R`
+* `CT2_plots_heatmap.R`
 
 
