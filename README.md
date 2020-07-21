@@ -16,7 +16,8 @@ This is the repository for the collected scripts used in the study:
     * data/Gene_expression/SAGD_SBgenes/SAGD_00026.csv # D. virilis sex-bias info from Shi M-W, Zhang N-A, Shi C-P, Liu C-J, Luo Z-H, Wang D-Y, et al. (2019). SAGD: a comprehensive sex-associated gene database from transcriptomes. Nucleic Acids Res 47: D835–D840.
 
 * Gene expression output files provided for convenience
-    * CT_analysis/EdgeR_out/
+    * CT_analysis/EdgeR_out/logCPM_all.csv # log counts per million for all genes
+    * CT_analysis/EdgeR_out/TTT_CT2_sig_CTSB_tidied.csv # EdgeR output: expression differences between sexes and temperatures 
 
 ## Phenotype analyses
 
