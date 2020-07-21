@@ -65,7 +65,7 @@ Plot gene expression data
 ## Functional processes
 
 Plot gene expression of functional clusters
-* CT2_plots_heatmap_GOs.R
+* `CT2_plots_heatmap_GOs.R`
 
 
 ## Infomation on running scripts
