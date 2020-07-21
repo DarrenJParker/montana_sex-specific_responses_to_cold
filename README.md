@@ -43,7 +43,7 @@ Take read counts and identifies gene expression changes.
 The output of `CT_edgeR.R` then needs to be brought together with `CT_SB_edgeR_tidier.py` as follows: 
 
 ```
-python CT_SB_edgeR_tidier.py \
+python3 CT_SB_edgeR_tidier.py \
 -a CT_analysis/EdgeR_out/TTT_SB_6_contrast.csv \
 -b CT_analysis/EdgeR_out/TTT_SB_19_contrast.csv \
 -f CT_analysis/EdgeR_out/TTT_female_CT_contrast.csv \
