@@ -10,7 +10,14 @@ This is the repository for the collected scripts used in the study:
     * `data/phenotype/Ctmin_data.csv`
     * `data/phenotype/README_Ctmin_data.txt`
 
-* Gene_expression data: 
+* Reference genome and annotation:
+     * `wget ftp://ftp.ncbi.nlm.nih.gov/sra/wgs_aux/LU/VX/LUVX01/LUVX01.1.fsa_nt.gz` - reference genome
+     * `wget https://datadryad.org/bitstream/handle/10255/dryad.187293/D.mont_freeze_v1.4.gff.txt` - annotation
+     * Reference genome file had additional infomation in the header line. To convert the genome into a format for use in STAR:
+          * `gzip -d LUVX01.1.fsa_nt.gz` - unzip genome
+          * `python3 convert_NCBI_DMfasta_for_gff.py -f LUVX01.1.fsa_nt -g D.mont_freeze_v1.4.gff.txt -o D.mont_freeze_v1.4_NCBI_con.fa`
+
+* Gene expression data: 
     * `data/Gene_expression/readcounts/CT_H2E.counts.csv` - readcounts
     * `data/Gene_expression/gff/D.mont_freeze_v1.4.gff.txt` - D. montana annotation info
     * `data/Gene_expression/SAGD_SBgenes/SAGD_00026.csv` - D. virilis sex-bias info from `Shi M-W, Zhang N-A, Shi C-P, Liu C-J, Luo Z-H, Wang D-Y, et al. (2019). SAGD: a comprehensive sex-associated gene database from transcriptomes. Nucleic Acids Res 47: D835–D840`
