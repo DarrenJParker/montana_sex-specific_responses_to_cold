@@ -13,7 +13,7 @@ This is the repository for the collected scripts used in the study:
 * Reference genome and annotation:
      * `wget ftp://ftp.ncbi.nlm.nih.gov/sra/wgs_aux/LU/VX/LUVX01/LUVX01.1.fsa_nt.gz` - reference genome
      * `wget https://datadryad.org/bitstream/handle/10255/dryad.187293/D.mont_freeze_v1.4.gff.txt` - annotation
-     * Reference genome file had additional infomation in the header line. To convert the genome into a format for use in STAR:
+     * Reference genome file has additional infomation in the header line. To convert the genome into a format for use in STAR:
           * `gzip -d LUVX01.1.fsa_nt.gz` - unzip genome
           * `python3 convert_NCBI_DMfasta_for_gff.py -f LUVX01.1.fsa_nt -g D.mont_freeze_v1.4.gff.txt -o D.mont_freeze_v1.4_NCBI_con.fa`
 
