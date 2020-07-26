@@ -17,6 +17,9 @@ This is the repository for the collected scripts used in the study:
           * `gzip -d LUVX01.1.fsa_nt.gz` - unzip genome
           * `python3 convert_NCBI_DMfasta_for_gff.py -f LUVX01.1.fsa_nt -g D.mont_freeze_v1.4.gff.txt -o D.mont_freeze_v1.4_NCBI_con.fa`
 
+* RNAseq reads
+   * Raw reads have been deposited in SRA under accession codes SRR10960337 - SRR10960348. See ms for details.
+
 * Gene expression data: 
     * `data/Gene_expression/readcounts/CT_H2E.counts.csv` - readcounts
     * `data/Gene_expression/gff/D.mont_freeze_v1.4.gff.txt` - D. montana annotation info
