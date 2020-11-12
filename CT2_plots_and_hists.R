@@ -569,6 +569,36 @@ ggsave(file="FB_vir_SB619_venn_out.pdf", FB_vir_SB619_venn_out,  width = 7, heig
 
 
 
+
+
+################################################################################################################################################
+############### mont SB genes at 19 and 6 
+################################################################################################################################################
+
+
+SB6_MB_2_genes  <- subset(dat_CT2_all, dat_CT2_all$SB_6_sexbias2 == "male_biased")[,1]
+SB19_MB_2_genes <- subset(dat_CT2_all, dat_CT2_all$SB_19_sexbias2 == "male_biased")[,1]
+
+MB_SB6_SB19_venn <- male_DE_venn(SB6_MB_2_genes , SB19_MB_2_genes , "Male-biased genes")
+grid.arrange(gTree(children=MB_SB6_SB19_venn ),ncol = 1 )
+
+
+SB6_FB_2_genes  <- subset(dat_CT2_all, dat_CT2_all$SB_6_sexbias2 == "female_biased")[,1]
+SB19_FB_2_genes <- subset(dat_CT2_all, dat_CT2_all$SB_19_sexbias2 == "female_biased")[,1]
+
+FB_SB6_SB19_venn <- female_DE_venn(SB6_FB_2_genes , SB19_FB_2_genes , "Female-biased genes")
+grid.arrange(gTree(children=FB_SB6_SB19_venn ),ncol = 1 )
+
+
+MB_SB6_SB19_venn_out <- arrangeGrob(gTree(children=MB_SB6_SB19_venn),ncol = 1 )
+ggsave(file="MB_SB6_SB19_venn_out.pdf", MB_SB6_SB19_venn_out , width = 7, height = 7)
+
+FB_SB6_SB19_venn_out <- arrangeGrob(gTree(children=FB_SB6_SB19_venn ),ncol = 1 )
+ggsave(file="FB_SB6_SB19_venn_out.pdf",FB_SB6_SB19_venn_out,  width = 7, height = 7)
+
+
+
+
 ########################################################################################################################################################################
 ####### output session info
 print (sessionInfo())
