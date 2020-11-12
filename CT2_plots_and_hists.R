@@ -365,9 +365,13 @@ plot_grid(ALL_female_SB619_2_box, ALL_male_SB619_2_box, ncol = 2, nrow = 1)
 dev.off()
 getwd() ## where has my plot gone....?
 
+##  N sex-biased genes
 
+ALL_female_SB619_2 <- plot_hist_and_box("dat_CT2_all", "SB_619_sexbias2_ord")
+ALL_male_SB619_2   <- plot_hist_and_box("dat_CT2_all", "SB_619_sexbias2_ord")
 
-
+length(ALL_female_SB619_2$FB_all$SB_619_sexbias) # 1682
+length(ALL_male_SB619_2$MB_all$SB_619_sexbias)   # 2023
 
 ###### wilcox
 
@@ -511,6 +515,13 @@ wilcox_vir_mont619_SB_2_all <- plot_hist_and_box("dat_CT2_all", "SB_619_virsexbi
 write.csv(wilcox_vir_mont619_SB_2_all, "wilcox_vir_mont619_SB_2_all.csv")
 
 
+##  N sex-biased genes
+
+ALL_female_vir_mont619_SB_2 <- plot_hist_and_box("dat_CT2_all", "SB_619_virsexbias2_ord")
+ALL_male_vir_mont619_SB_2   <- plot_hist_and_box("dat_CT2_all", "SB_619_virsexbias2_ord")
+
+length(ALL_female_vir_mont619_SB_2$FB_all$SB_619_virsexbias2_ord) # 660
+length(ALL_male_vir_mont619_SB_2$MB_all$SB_619_virsexbias2_ord)   # 489
 
 
 ################################################################################################################################################
