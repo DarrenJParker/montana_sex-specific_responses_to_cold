@@ -1,0 +1,1 @@
+## data from Wiberg RAW, Tyukmaeva V, Hoikkala A, Ritchie MG, Kankare M (2020). Cold adaptation drives population genomic divergence in the ecological specialist, Drosophila montana. BioRxiv: 2020.04.20.050450.
