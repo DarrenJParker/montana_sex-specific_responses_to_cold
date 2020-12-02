@@ -81,6 +81,9 @@ Plot gene expression data
 Plot gene expression of functional clusters
 * `CT2_plots_heatmap_GOs.R`
 
+Compare to other data sources (Wiberg et al. 2020 and Flybase)
+* `CT_overlap.R`
+
 
 ## Infomation on running scripts
 
