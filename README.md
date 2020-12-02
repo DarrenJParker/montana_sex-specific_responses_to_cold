@@ -38,6 +38,10 @@ This is the repository for the collected scripts used in the study:
          * `interaction_dmel_genelist_DU.txt` - Genes showing a significant sex by cold treatment interaction
          * `background_dmel_genelist_DU.txt` - All expressed genes. Used as the 'background list' in DAVID        
 
+* Other gene info
+    * `data/Other/innate_immune.txt` - Genes annotated as innate immune genes in D. melanogaster (from [Flybase](https://flybase.org/))
+    * `data/Wiberg_etal_2020/TableS3_bscan_topSNPs_genes_CTmin_DM.csv` - Genes significantly associated with population CTmin in D. montana (from `Wiberg RAW, Tyukmaeva V, Hoikkala A, Ritchie MG, Kankare M (2020). Cold adaptation drives population genomic divergence in the ecological specialist, Drosophila montana. BioRxiv: 2020.04.20.050450.`)
+
 ## Phenotype analyses
 
 Analyse CT min data.
