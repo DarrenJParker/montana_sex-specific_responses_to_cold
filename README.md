@@ -2,7 +2,9 @@
 
 This is the repository for the collected scripts used in the study:
 
-> Parker, D. J., Envall, T., Ritchie, M. G., and Kankare, M. (2020) Sex-specific responses to cold in Drosophila montana.
+> Parker, D. J., Envall, T., Ritchie, M. G., and Kankare, M. (in press) Sex-specific responses to cold in Drosophila montana. Heredity.
+
+The archived version for the analyses in the paper are here: https://doi.org/10.5281/zenodo.4322949
 
 ## Data
 
